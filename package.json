@@ -1,0 +1,24 @@
+{
+  "name": "node-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "'Alexey_Korablin' <'Alexey_Korablin@epam.com'>",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "fs-extra": "^8.0.1",
+    "inquirer": "^6.2.2",
+    "node-fetch": "^2.3.0",
+    "progress": "^2.0.3",
+    "ws": "^7.0.0"
+  }
+}
